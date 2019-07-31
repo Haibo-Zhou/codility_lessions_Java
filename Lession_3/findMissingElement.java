@@ -24,7 +24,7 @@ the elements of A are all distinct;
 each element of array A is an integer within the range [1..(N + 1)].
 */
 
-class Solution {
+class findMissingElement {
     // public int solution(int[] A) {
     //     // write your code in Java SE 8
     //     long n = A.length + 1;
@@ -55,7 +55,7 @@ class Solution {
 
 
     public static void main(String [] args) {
-      Solution ss = new Solution();
+      findMissingElement ss = new findMissingElement();
       int [] A = {2, 3, 1, 5};
       int [] B = {6, 5, 1, 4, 3};
       ss.solution(A);

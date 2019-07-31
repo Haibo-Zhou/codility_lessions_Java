@@ -48,7 +48,7 @@ each element of array A is an integer within the range [1..1,000,000,000].
 
 import java.util.*;
 
-class Solution {
+class checkPermutation {
     public int solution(int[] A) {
         // write your code in Java SE 8
         Arrays.sort(A);
@@ -69,7 +69,7 @@ class Solution {
     }
 
     public static void main(String [] args) {
-      Solution ss = new Solution();
+      checkPermutation ss = new checkPermutation();
       int [] A = {4, 1, 3, 2};
       int [] B = {5, 6, 1, 1, 3, 1, 9};
       int [] C = {2, 3, 4, 5};

@@ -47,7 +47,7 @@ import java.util.List;
 import java.util.Collections;
 import java.util.stream.*;
 
-class Solution {
+class differentValue {
     public int solution(int[] A) {
         // write your code in Java SE 8
         int n = A.length;
@@ -85,7 +85,7 @@ class Solution {
     }
 
     public static void main(String [] args) {
-      Solution ss = new Solution();
+      differentValue ss = new differentValue();
       int [] A = {3, 1, 2, 4, 3};
       ss.solution(A);
     }

@@ -45,7 +45,7 @@ each element of array A is an integer within the range [1..X].
 
 
 
-class Solution {
+class frogRiverOne {
     public int solution(int X, int[] A) {
         int steps = X;
         boolean[] bitmap = new boolean[steps+1];
@@ -57,8 +57,17 @@ class Solution {
                 bitmap[A[i]] = true;
                 steps--;
             }
-            if(steps == 0) return i;
+            if(steps == 0) {
+                System.out.println(i);
+                return i;
+            }
         }
         return -1;
+    }
+
+    public static void main(String [] args) {
+        frogRiverOne ss = new frogRiverOne();
+        int [] A = {1, 3, 1, 4, 2, 3, 5, 4};
+        ss.solution(5, A);
     }
 }
